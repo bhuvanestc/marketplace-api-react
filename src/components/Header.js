@@ -4,12 +4,12 @@ const Header = (props) => {
   return (
     <header
       className={`container-fluid bg-${
-        props.bgColor ? props.bgColor : "secondary"
+        props.bgColor 
       } text-white pt-5 pb-5`}
     >
       <div className="container">
         <h2>{props.text && props.text}</h2>
-        <h2>{!props.text && "Default Header Text"}</h2>
+       
       </div>
     </header>
   );
